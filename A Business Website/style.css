@@ -1,0 +1,116 @@
+@import url("fonts/droidsans.css");
+@import url("fonts/texgyre.css");
+
+* {
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+
+#navbar {
+    background: url(images/topbg.jpg);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    height: 200px;
+    padding-top: 40px;
+
+}
+
+nav h1 {
+    color: red;
+    text-shadow: wrgb(255, 255, 255) 1px 1px 1px;
+}
+
+#navbar h1.smallbusi {
+    font-family: TeXGyreAdventor, Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#navbar ul li {
+    display: inline;
+    justify-content: center;
+    text-shadow: rgb(255, 255, 255) 1px 1px 1px;;
+    padding:0.5rem;
+}
+
+
+nav a {
+    text-decoration: none;
+    color:rgb(28, 95, 117);
+    font-family:TeXGyreAdventor, Arial, sans-serif;
+    font-weight: bolder;
+    
+}
+
+nav a:hover {
+    color: rgb(211, 85, 55);;
+}
+
+body {
+    font-family: "Droid Sans", verdana, Geneva, sans-serif;
+    line-height: 1.6;
+    /* font-size: 62.5%; */
+    background: url(images/htmlbg.jpg);
+}
+
+#container {
+    width:1001px;
+	margin:0 auto;
+	padding-top:0px;
+
+}
+
+#main-content {
+    display: block;
+    unicode-bidi: isolate;
+
+}
+
+.small h2 {
+    font-size:20px;
+    color: rgb(137, 38, 15);
+    text-shadow: rgb(249, 132, 101) 1px 1px 1px;
+    margin-bottom: 20px;
+    margin-top:30px;
+    padding-right: 150px;
+    font-family: 'Droid Sans', Verdana, Geneva, sans-serif;
+    font-weight: bold;
+}
+
+.small p {
+    font-size: 14px;
+    color:white;
+    line-height: 1.5;
+    padding-right: 140px;
+    margin-bottom: 30px;
+    font-family: 'DroidSansRegular', Verdana, Geneva, sans-serif;
+}
+
+nav, section, header, footer, article {
+	display:block;
+}
+
+#About {
+    display: flex;
+    background: url(images/mainheader.gif) no-repeat;
+    /* justify-content: space-between; */
+    align-items:flex-start;
+    padding: 60px 40px;
+    margin:-140px 0 0 0;
+    height: 220px;
+}
+
+#About img {
+    max-width: 260px;
+    height: auto;
+    padding-right: 40px;
+}
+#page {
+    width:962px;
+	margin:auto;
+	padding:0 20px;
+}

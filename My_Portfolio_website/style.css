@@ -1,0 +1,25 @@
+.about{
+    font-size: 50px;
+    font-family: 'Times new roman', sans-serif;
+    color: blue;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Aboutme {
+    background: radial-gradient(red, maroon, yellow);
+    font-size: 18px;
+    font-family: 'Times new roman', sans-serif;
+    color: rgb(68, 0, 255);
+    line-height: 1.6;
+    margin: 2px;
+    padding: 5px;
+    border: 2px solid black;
+}
+.nav_links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    padding: 5px;
+}
