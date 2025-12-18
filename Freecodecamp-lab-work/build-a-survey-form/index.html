@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title> Bread Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Bread Survey Form</h1>
+    <p id="description">This form is about asking people what kind of bread they love to buy and eat and which bakery is the best to buy bread from</p>
+    <form id="survey-form" method="post">
+      <label for="name" id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required> <br>
+      <label for="email" id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Enter your email address" required><br>
+      <label for="number" id="number-label">Age(Optional)</label>
+      <input id="number" type="number" name="number" min="18" max="30" placeholder="Age">
+      <p></p>
+      <label for="dropdown">Select your favorite bakery</label><br>
+      <select id="dropdown" placeholder="select favorite bakery">
+        <option value="Al-ihsan">Al-ihsan</option>
+        <option value="Goronduma">Goronduma</option>
+      </select><br>
+      <p>Which size do you prefer?</p>
+      <input type="radio" name="size" id="big-size" value="size">
+      <label for="big-size">Big size</label>
+      <input type="radio" name="size" id="small-size" value="size">
+      <label for="small-size">Small size</label><br>
+      <p>How much own do you prefer from al-ihsan bakery?</p>
+      <input type="checkbox" name="price" id="prices" value="price">
+      <label for="prices">N900</label>
+      <input type="checkbox" name="price" id="prices" value="price">
+      <label for="prices">N1500</label>
+      <br>
+      <p>Any comments or suggestion?</p>
+      <textarea rows="5" cols="30"></textarea><br>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>

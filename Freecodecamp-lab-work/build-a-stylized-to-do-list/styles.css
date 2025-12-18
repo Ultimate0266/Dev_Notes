@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 350px;
+  background-color: lavenderblush;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  width: 400px;
+  padding: 20px 0;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+}
+
+li {
+  margin-right: 35px;
+}
+
+.todo-list li {
+  text-align: left;
+  list-style-type: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color:#e5f1e5;
+  line-height: 1.6;
+  
+}
+
+.sub-item li {
+  list-style-type: square;
+}
+
+.sub-item {
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:focus {
+  outline: 2px solid green; /* gives a visible outline */
+  outline-offset: 2px;  
+}
+
+a:active {
+  color: brown;
+}

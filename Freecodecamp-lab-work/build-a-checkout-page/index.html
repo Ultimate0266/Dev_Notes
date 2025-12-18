@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="This is a rubi cube.">
+        <p>Rubi Cube</p>
+        <p>$29.99</p>
+    </section>
+    <section>
+        <h2>Payment Information</h2>
+        <form>
+            <label for="card-name" >Card Name<span aria-hidden="true">*</span></label>
+            <input id="card-name" name="card-name" type="text" required>
+            <br>
+            <label for="card-number">Card Number<span aria-hidden="true">*</span></label>
+            <input id="card-number" name="card-number" type="text" aria-describedby="card-number-help" required>
+            <p id="card-number-help" >The number should be up to 15 digits</p>
+            <label for="expiry-date">Expiry Date <span aria-hidden="true">*</span></label>
+            <input type="text" id="expiry-date" name="expiry-date" aria-describedby="expiry-date" placeholder="MM/YY" required>
+            <br>
+            <label for="cvv">CVV <span aria-hidden="true">*</span></label>
+            <input type="text" maxlength="3" id="cvv" name="cvv" aria-describedby="cvv" required>
+            <br><button>Place Order</button>
+        </form>
+    </section>
+</body>
+
+</html>
