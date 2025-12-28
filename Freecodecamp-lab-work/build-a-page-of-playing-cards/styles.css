@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  background-image: url(https://media.istockphoto.com/id/2169739892/photo/old-tin-sign-7680x4320-8k-uhd-2.webp?a=1&b=1&s=612x612&w=0&k=20&c=-zN5MESJukvcm6XCnJl9kXUfnXdQlp7iN5Uos83VVnc=);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  
+}
+
+#playing-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  margin: 20px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px gray;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  min-width: 250px;
+  max-width: 250px;
+  padding: 5px;
+  height: 350px;
+  justify-content: space-between;
+  text-align: center; 
+}
+
+.left {
+  display: block;
+  align-self: flex-start;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-size: 80px;
+}
+
+.square {
+  display: flex;
+}
+
+.right {
+  display: block;
+  align-self: flex-end;
+}
+
+.upside {
+  transform: rotate(180deg);
+}
+
+.hrt-color-red {
+  color: red;
+}
